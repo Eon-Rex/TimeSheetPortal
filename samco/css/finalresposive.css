@@ -1,0 +1,282 @@
+﻿
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:Large;   
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:18px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:10px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size: 12px;    
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:10px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+    .footerright {
+        text-align:center;
+    }
+    .footerleft {
+        text-align:center;
+    }
+.boxouter11
+{
+	width:70px;
+}
+ .gsmtxthead
+ {     
+  text-align:center;  
+  padding-bottom:5px; 
+}
+	
+	.navigation {
+		display: none;
+		margin-right: 0;
+		padding-left: 0;
+		width: 50%;
+		position: absolute;
+		left: 0;
+		top: 48px;
+		z-index: 999999;
+		margin-top: 0;
+		
+	}
+	.navigation::before, .navigation::after, .social::before, .request::after {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		border-left: 0;
+		text-align: left;
+	}
+	.navigation > li:hover .dropdown {
+		display: none;
+	}
+	.sub-menu {
+		left: 0;
+		position: static;
+		background: #ffffff !important;
+	}
+	.sub-menu ul {
+		background: #ffffff !important;
+	}
+	.sub-menu a {
+		color: #2c3740 !important;
+	}
+	.navigation li a {
+		padding: 10px 26px 10px 22px !important;
+	}
+	.nav-icon {
+		display: inline-block;
+		padding: 0 4px 4px;
+		position: absolute;
+		left: 5px;
+		top: 20px;
+		cursor: pointer;
+		
+	    
+	}
+	.sub-menu > li:hover {
+		background: #ffffff;
+	}
+	.custom-nav {
+		position: static;
+	}
+    #cssmenu ul ul {
+		opacity: 1;
+	}
+    .lstbtmtxt {
+        padding-top:2px;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) 
+{
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:Large;    
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:18px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:10px;
+    }
+    .footerright {
+        text-align:right;
+    }
+    .footerleft {
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 1025px) 
+{
+ .finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:Large;    
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:18px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:10px;
+    }
+    .footerright {
+        text-align:right;
+    }
+    .footerleft {
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1199px)
+{
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:Large;    
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:18px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:10px;
+    }
+    .footerright {
+        text-align:right;
+    }
+    .footerleft {
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:12px;  
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:10px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:2px;
+    }
+    .footerright {
+        text-align:center;
+    }
+    .footerleft {
+        text-align:center;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) 
+{
+.finaltabrsbtest
+{
+    font-family: Times New Roman;
+    color:Black;
+     font-size:12px;   
+    
+}
+.finaltabrsbtest1
+{
+    font-family: Times New Roman;    
+    font-size:10px;   
+    
+}
+.finaltabrsbtest2
+{
+    font-family: Times New Roman;    
+    font-size:14px;   
+    
+}
+    .lstbtmtxt {
+        padding-top:2px;
+    }
+    .footerright {
+        text-align:center;
+    }
+    .footerleft {
+        text-align:center;
+    }
+}
+

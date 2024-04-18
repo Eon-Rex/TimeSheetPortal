@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd3" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd6" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.AX.Framework.Services" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MobileCustomeServiceGetCalenderDaysTimeSheetRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceGetCalenderDaysTimeSheetRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceGetCalenderDaysTimeSheetRequest_Headers">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q1:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceGetCalenderDaysTimeSheetResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceGetCalenderDaysTimeSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_GetCalenderDaysTimeSheet_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q2:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveEmployeesIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveEmployeesIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveEmployeesIdsRequest_Headers">
+    <wsdl:part xmlns:q3="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q3:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveEmployeesIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveEmployeesIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveEmployeesIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q4:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRejectTimeSheetRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRejectTimeSheetRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRejectTimeSheetRequest_Headers">
+    <wsdl:part xmlns:q5="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q5:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRejectTimeSheetResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRejectTimeSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RejectTimeSheet_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q6:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerEmployeesIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveManagerEmployeesIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerEmployeesIdsRequest_Headers">
+    <wsdl:part xmlns:q7="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q7:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerEmployeesIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveManagerEmployeesIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveManagerEmployeesIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q8:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceEditMyTimeSheetRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceEditMyTimeSheetRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceEditMyTimeSheetRequest_Headers">
+    <wsdl:part xmlns:q9="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q9:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceEditMyTimeSheetResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceEditMyTimeSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_EditMyTimeSheet_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q10:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerProjIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveManagerProjIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerProjIdsRequest_Headers">
+    <wsdl:part xmlns:q11="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q11:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveManagerProjIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveManagerProjIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveManagerProjIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q12:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNewLinePropertyIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNewLinePropertyIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNewLinePropertyIdsRequest_Headers">
+    <wsdl:part xmlns:q13="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q13:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNewLinePropertyIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNewLinePropertyIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveNewLinePropertyIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q14:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceGetMyTimeSheetRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceGetMyTimeSheetRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceGetMyTimeSheetRequest_Headers">
+    <wsdl:part xmlns:q15="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q15:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceGetMyTimeSheetResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceGetMyTimeSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_GetMyTimeSheet_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q16:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceLoginInMobilePortalRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceLoginInMobilePortalRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceLoginInMobilePortalRequest_Headers">
+    <wsdl:part xmlns:q17="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q17:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceLoginInMobilePortalResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceLoginInMobilePortalResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_loginInMobilePortal_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q18:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveLinePropertyIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveLinePropertyIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveLinePropertyIdsRequest_Headers">
+    <wsdl:part xmlns:q19="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q19:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveLinePropertyIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveLinePropertyIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveLinePropertyIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q20:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjCategoryIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjCategoryIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjCategoryIdsRequest_Headers">
+    <wsdl:part xmlns:q21="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q21:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjCategoryIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjCategoryIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveProjCategoryIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q22:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest_Headers">
+    <wsdl:part xmlns:q23="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q23:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveNPGSectionCodeIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q24:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjectCategoryIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjectCategoryIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjectCategoryIdsRequest_Headers">
+    <wsdl:part xmlns:q25="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q25:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjectCategoryIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjectCategoryIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveProjectCategoryIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q26:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsNewRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjIdsNewRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsNewRequest_Headers">
+    <wsdl:part xmlns:q27="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q27:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsNewResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjIdsNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveProjIdsNew_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q28:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByTimekeeperRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceReviewTimeSheetByTimekeeperRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByTimekeeperRequest_Headers">
+    <wsdl:part xmlns:q29="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q29:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByTimekeeperResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceReviewTimeSheetByTimekeeperResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_ReviewTimeSheetByTimekeeper_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q30:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSaveTimeSheetRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceSaveTimeSheetRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSaveTimeSheetRequest_Headers">
+    <wsdl:part xmlns:q31="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q31:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSaveTimeSheetResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceSaveTimeSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_SaveTimeSheet_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q32:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjDetailRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjDetailRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjDetailRequest_Headers">
+    <wsdl:part xmlns:q33="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q33:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjDetailResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveProjDetail_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q34:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsRequest_Headers">
+    <wsdl:part xmlns:q35="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q35:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveProjIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveProjIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_retrieveProjIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q36:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGCodeIdsRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNPGCodeIdsRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGCodeIdsRequest_Headers">
+    <wsdl:part xmlns:q37="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q37:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceRetrieveNPGCodeIdsResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceRetrieveNPGCodeIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_RetrieveNPGCodeIds_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q38:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByMatterRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceReviewTimeSheetByMatterRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByMatterRequest_Headers">
+    <wsdl:part xmlns:q39="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q39:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceReviewTimeSheetByMatterResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceReviewTimeSheetByMatterResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_ReviewTimeSheetByMatter_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q40:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSearchProjectRequest">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceSearchProjectRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSearchProjectRequest_Headers">
+    <wsdl:part xmlns:q41="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q41:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeServiceSearchProjectResponse">
+    <wsdl:part name="parameters" element="tns:MobileCustomeServiceSearchProjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileCustomeService_searchProject_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q42:AifFault" />
+  </wsdl:message>
+  <wsdl:portType name="MobileCustomeService">
+    <wsdl:operation name="GetCalenderDaysTimeSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/GetCalenderDaysTimeSheet" name="MobileCustomeServiceGetCalenderDaysTimeSheetRequest" message="tns:MobileCustomeServiceGetCalenderDaysTimeSheetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/GetCalenderDaysTimeSheetResponse" name="MobileCustomeServiceGetCalenderDaysTimeSheetResponse" message="tns:MobileCustomeServiceGetCalenderDaysTimeSheetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/GetCalenderDaysTimeSheetAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_GetCalenderDaysTimeSheet_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveEmployeesIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveEmployeesIds" name="MobileCustomeServiceRetrieveEmployeesIdsRequest" message="tns:MobileCustomeServiceRetrieveEmployeesIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveEmployeesIdsResponse" name="MobileCustomeServiceRetrieveEmployeesIdsResponse" message="tns:MobileCustomeServiceRetrieveEmployeesIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveEmployeesIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveEmployeesIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RejectTimeSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RejectTimeSheet" name="MobileCustomeServiceRejectTimeSheetRequest" message="tns:MobileCustomeServiceRejectTimeSheetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RejectTimeSheetResponse" name="MobileCustomeServiceRejectTimeSheetResponse" message="tns:MobileCustomeServiceRejectTimeSheetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RejectTimeSheetAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RejectTimeSheet_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveManagerEmployeesIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerEmployeesIds" name="MobileCustomeServiceRetrieveManagerEmployeesIdsRequest" message="tns:MobileCustomeServiceRetrieveManagerEmployeesIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerEmployeesIdsResponse" name="MobileCustomeServiceRetrieveManagerEmployeesIdsResponse" message="tns:MobileCustomeServiceRetrieveManagerEmployeesIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerEmployeesIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveManagerEmployeesIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditMyTimeSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/EditMyTimeSheet" name="MobileCustomeServiceEditMyTimeSheetRequest" message="tns:MobileCustomeServiceEditMyTimeSheetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/EditMyTimeSheetResponse" name="MobileCustomeServiceEditMyTimeSheetResponse" message="tns:MobileCustomeServiceEditMyTimeSheetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/EditMyTimeSheetAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_EditMyTimeSheet_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveManagerProjIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerProjIds" name="MobileCustomeServiceRetrieveManagerProjIdsRequest" message="tns:MobileCustomeServiceRetrieveManagerProjIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerProjIdsResponse" name="MobileCustomeServiceRetrieveManagerProjIdsResponse" message="tns:MobileCustomeServiceRetrieveManagerProjIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveManagerProjIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveManagerProjIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNewLinePropertyIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNewLinePropertyIds" name="MobileCustomeServiceRetrieveNewLinePropertyIdsRequest" message="tns:MobileCustomeServiceRetrieveNewLinePropertyIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNewLinePropertyIdsResponse" name="MobileCustomeServiceRetrieveNewLinePropertyIdsResponse" message="tns:MobileCustomeServiceRetrieveNewLinePropertyIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNewLinePropertyIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveNewLinePropertyIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyTimeSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/GetMyTimeSheet" name="MobileCustomeServiceGetMyTimeSheetRequest" message="tns:MobileCustomeServiceGetMyTimeSheetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/GetMyTimeSheetResponse" name="MobileCustomeServiceGetMyTimeSheetResponse" message="tns:MobileCustomeServiceGetMyTimeSheetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/GetMyTimeSheetAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_GetMyTimeSheet_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="loginInMobilePortal">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/loginInMobilePortal" name="MobileCustomeServiceLoginInMobilePortalRequest" message="tns:MobileCustomeServiceLoginInMobilePortalRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/loginInMobilePortalResponse" name="MobileCustomeServiceLoginInMobilePortalResponse" message="tns:MobileCustomeServiceLoginInMobilePortalResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/loginInMobilePortalAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_loginInMobilePortal_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveLinePropertyIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveLinePropertyIds" name="MobileCustomeServiceRetrieveLinePropertyIdsRequest" message="tns:MobileCustomeServiceRetrieveLinePropertyIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveLinePropertyIdsResponse" name="MobileCustomeServiceRetrieveLinePropertyIdsResponse" message="tns:MobileCustomeServiceRetrieveLinePropertyIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveLinePropertyIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveLinePropertyIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjCategoryIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjCategoryIds" name="MobileCustomeServiceRetrieveProjCategoryIdsRequest" message="tns:MobileCustomeServiceRetrieveProjCategoryIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjCategoryIdsResponse" name="MobileCustomeServiceRetrieveProjCategoryIdsResponse" message="tns:MobileCustomeServiceRetrieveProjCategoryIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjCategoryIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveProjCategoryIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNPGSectionCodeIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGSectionCodeIds" name="MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest" message="tns:MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGSectionCodeIdsResponse" name="MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse" message="tns:MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGSectionCodeIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveNPGSectionCodeIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjectCategoryIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjectCategoryIds" name="MobileCustomeServiceRetrieveProjectCategoryIdsRequest" message="tns:MobileCustomeServiceRetrieveProjectCategoryIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjectCategoryIdsResponse" name="MobileCustomeServiceRetrieveProjectCategoryIdsResponse" message="tns:MobileCustomeServiceRetrieveProjectCategoryIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjectCategoryIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveProjectCategoryIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjIdsNew">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjIdsNew" name="MobileCustomeServiceRetrieveProjIdsNewRequest" message="tns:MobileCustomeServiceRetrieveProjIdsNewRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjIdsNewResponse" name="MobileCustomeServiceRetrieveProjIdsNewResponse" message="tns:MobileCustomeServiceRetrieveProjIdsNewResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjIdsNewAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveProjIdsNew_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReviewTimeSheetByTimekeeper">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByTimekeeper" name="MobileCustomeServiceReviewTimeSheetByTimekeeperRequest" message="tns:MobileCustomeServiceReviewTimeSheetByTimekeeperRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByTimekeeperResponse" name="MobileCustomeServiceReviewTimeSheetByTimekeeperResponse" message="tns:MobileCustomeServiceReviewTimeSheetByTimekeeperResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByTimekeeperAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_ReviewTimeSheetByTimekeeper_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTimeSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/SaveTimeSheet" name="MobileCustomeServiceSaveTimeSheetRequest" message="tns:MobileCustomeServiceSaveTimeSheetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/SaveTimeSheetResponse" name="MobileCustomeServiceSaveTimeSheetResponse" message="tns:MobileCustomeServiceSaveTimeSheetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/SaveTimeSheetAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_SaveTimeSheet_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjDetail" name="MobileCustomeServiceRetrieveProjDetailRequest" message="tns:MobileCustomeServiceRetrieveProjDetailRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjDetailResponse" name="MobileCustomeServiceRetrieveProjDetailResponse" message="tns:MobileCustomeServiceRetrieveProjDetailResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveProjDetailAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveProjDetail_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="retrieveProjIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/retrieveProjIds" name="MobileCustomeServiceRetrieveProjIdsRequest" message="tns:MobileCustomeServiceRetrieveProjIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/retrieveProjIdsResponse" name="MobileCustomeServiceRetrieveProjIdsResponse" message="tns:MobileCustomeServiceRetrieveProjIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/retrieveProjIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_retrieveProjIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNPGCodeIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGCodeIds" name="MobileCustomeServiceRetrieveNPGCodeIdsRequest" message="tns:MobileCustomeServiceRetrieveNPGCodeIdsRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGCodeIdsResponse" name="MobileCustomeServiceRetrieveNPGCodeIdsResponse" message="tns:MobileCustomeServiceRetrieveNPGCodeIdsResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/RetrieveNPGCodeIdsAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_RetrieveNPGCodeIds_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReviewTimeSheetByMatter">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByMatter" name="MobileCustomeServiceReviewTimeSheetByMatterRequest" message="tns:MobileCustomeServiceReviewTimeSheetByMatterRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByMatterResponse" name="MobileCustomeServiceReviewTimeSheetByMatterResponse" message="tns:MobileCustomeServiceReviewTimeSheetByMatterResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByMatterAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_ReviewTimeSheetByMatter_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="searchProject">
+      <wsdl:input wsaw:Action="http://tempuri.org/MobileCustomeService/searchProject" name="MobileCustomeServiceSearchProjectRequest" message="tns:MobileCustomeServiceSearchProjectRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MobileCustomeService/searchProjectResponse" name="MobileCustomeServiceSearchProjectResponse" message="tns:MobileCustomeServiceSearchProjectResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MobileCustomeService/searchProjectAifFaultFault" name="AifFaultFault" message="tns:MobileCustomeService_searchProject_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

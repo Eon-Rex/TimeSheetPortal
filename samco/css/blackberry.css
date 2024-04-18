@@ -1,0 +1,203 @@
+﻿body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+}
+#outerlogin
+{
+     width: 94%; 
+     height:270px;   
+    margin: 0 auto;
+    border-right-color: #b7b7b7;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-color:#b7b7b7;
+    border-left-style: solid;
+    border-left-width: 2px;
+     -webkit-box-shadow: 0 10px 10px #b7b7b7;
+  -moz-box-shadow: 0 10px 10px #b7b7b7;
+  box-shadow: 0 10px 10px #b7b7b7;
+    
+
+}
+#outerloginb
+{
+     width: 94%; 
+     height:320px;   
+    margin: 0 auto;
+    border-right-color: #b7b7b7;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-color:#b7b7b7;
+    border-left-style: solid;
+    border-left-width: 2px;
+     -webkit-box-shadow: 0 10px 10px #b7b7b7;
+  -moz-box-shadow: 0 10px 10px #b7b7b7;
+  box-shadow: 0 10px 10px #b7b7b7;
+    
+
+}
+.btnlast
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    border:0px;
+    margin-top:10px;
+    text-align: center;
+    background-color: #337ab7;
+
+}
+.topheaderout
+{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    background-color: #01204f;
+    
+}
+.topheaderoutb
+{
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #01204f;
+    
+}
+.topheadtxt
+{
+    width: 100%;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top:20px;
+    text-align: center;
+}
+.topheadtxtb
+{
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top:25px;
+    text-align: center;
+}
+.firsttxtrow
+{
+    width: 60%;
+    height: 55px;
+    margin: 0 auto;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding-top:20px;
+    text-align: center;
+}
+.firsttxtrow1
+{
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding-top:1px;
+    text-align: center;
+}
+.firsttxtrow2
+{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top:10px;
+    text-align: center;
+    background-color: #337ab7;
+     -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}
+.firsttxtrow2th
+{
+    width: 60%;    
+    margin: 0 auto;    
+    
+}
+.txttextbox
+{
+    width:100%;
+    height:30px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    border-right-color: #dde0c3;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color:#dde0c3;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-color:#dde0c3;
+    border-bottom-style: solid;
+    border-bottom-width:1px;
+    border-top-color:#dde0c3;
+    border-top-style: solid;
+    border-top-width:1px;
+
+}
+.lgtout {
+     text-decoration: none;
+    
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+}   
+
+.lgtout a {
+        text-decoration: none;      
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+    }
+
+    .lgtout a :hover {            
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: #b74333;
+        }
+
+
+
+
+    /* 22.4 Cart Page button_area   */
+.button_area{
+	font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.button_area a {
+  background: #337ab7 none repeat scroll 0 0;
+  color: #FFFFFF;
+  border-radius: 10px;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding: 11px 0;
+  text-align: center;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition: all 0.4s ease 0s;
+  
+}
+.newastric
+{
+    color:#dc2e06;
+    font-weight:bolder;
+}
+

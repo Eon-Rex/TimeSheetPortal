@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+  <xs:complexType name="ACX_DCCategoryList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q1:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projCategoryName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCCategoryList" nillable="true" type="tns:ACX_DCCategoryList" />
+  <xs:complexType name="ACX_DCEditTimeSheet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q2:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="categoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="custAccount" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="custName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="emplnpgCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="narration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgSectionId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgemplSectionId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="rejectDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCEditTimeSheet" nillable="true" type="tns:ACX_DCEditTimeSheet" />
+  <xs:complexType name="ACX_DCEmployeeList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q3:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="emplId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="emplName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCEmployeeList" nillable="true" type="tns:ACX_DCEmployeeList" />
+  <xs:complexType name="ACX_DCGetCalenderTimeSheet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q4:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="categoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCGetCalenderTimeSheet" nillable="true" type="tns:ACX_DCGetCalenderTimeSheet" />
+  <xs:complexType name="ACX_DCGetTimeSheet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q5:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="categoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCGetTimeSheet" nillable="true" type="tns:ACX_DCGetTimeSheet" />
+  <xs:complexType name="ACX_DCLinePropertyList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q6:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCLinePropertyList" nillable="true" type="tns:ACX_DCLinePropertyList" />
+  <xs:complexType name="ACX_DCNPGCodeList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q7:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="npgCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCNPGCodeList" nillable="true" type="tns:ACX_DCNPGCodeList" />
+  <xs:complexType name="ACX_DCNPGSectionCodeList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q8:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="npgSectionId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgSectionName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCNPGSectionCodeList" nillable="true" type="tns:ACX_DCNPGSectionCodeList" />
+  <xs:complexType name="ACX_DCProjDetail">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q9:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="custAccount" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="custName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="emplNPGCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="emplNPGSection" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="linePropertyId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projNPGCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projNPGSection" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCProjDetail" nillable="true" type="tns:ACX_DCProjDetail" />
+  <xs:complexType name="ACX_DCProjList">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q10="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q10:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCProjList" nillable="true" type="tns:ACX_DCProjList" />
+  <xs:complexType name="ACX_DCProjListSearch">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q11:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCProjListSearch" nillable="true" type="tns:ACX_DCProjListSearch" />
+  <xs:complexType name="ACX_DCRejectTimeSheet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q12="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q12:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mobileRejectReason" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCRejectTimeSheet" nillable="true" type="tns:ACX_DCRejectTimeSheet" />
+  <xs:complexType name="ACX_DCReviewTimeSheetByMatter">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q13:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="categoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCReviewTimeSheetByMatter" nillable="true" type="tns:ACX_DCReviewTimeSheetByMatter" />
+  <xs:complexType name="ACX_DCReviewTimeSheetByTimeKeeker">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q14="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q14:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="categoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCReviewTimeSheetByTimeKeeker" nillable="true" type="tns:ACX_DCReviewTimeSheetByTimeKeeker" />
+  <xs:complexType name="ACX_DCSaveTimeSheet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q15="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q15:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="employeeId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hour" type="xs:int" />
+          <xs:element minOccurs="0" name="minutes" type="xs:int" />
+          <xs:element minOccurs="0" name="narration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="npgSectionId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projCategoryId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="projLineProtId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="transationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="workDate" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_DCSaveTimeSheet" nillable="true" type="tns:ACX_DCSaveTimeSheet" />
+  <xs:complexType name="ACX_ReturnLoginAttributes">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q16="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q16:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" type="xs:boolean" />
+          <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_ReturnLoginAttributes" nillable="true" type="tns:ACX_ReturnLoginAttributes" />
+  <xs:complexType name="ACX_ReturnTimeSheetAttributes">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q17="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q17:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ACX_ReturnTimeSheetAttributes" nillable="true" type="tns:ACX_ReturnTimeSheetAttributes" />
+  <xs:complexType name="ArrayOfACX_DCGetCalenderTimeSheet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCGetCalenderTimeSheet" nillable="true" type="tns:ACX_DCGetCalenderTimeSheet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCGetCalenderTimeSheet" nillable="true" type="tns:ArrayOfACX_DCGetCalenderTimeSheet" />
+  <xs:complexType name="ArrayOfACX_DCEmployeeList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCEmployeeList" nillable="true" type="tns:ACX_DCEmployeeList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCEmployeeList" nillable="true" type="tns:ArrayOfACX_DCEmployeeList" />
+  <xs:complexType name="ArrayOfACX_DCEditTimeSheet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCEditTimeSheet" nillable="true" type="tns:ACX_DCEditTimeSheet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCEditTimeSheet" nillable="true" type="tns:ArrayOfACX_DCEditTimeSheet" />
+  <xs:complexType name="ArrayOfACX_DCProjList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCProjList" nillable="true" type="tns:ACX_DCProjList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCProjList" nillable="true" type="tns:ArrayOfACX_DCProjList" />
+  <xs:complexType name="ArrayOfACX_DCLinePropertyList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCLinePropertyList" nillable="true" type="tns:ACX_DCLinePropertyList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCLinePropertyList" nillable="true" type="tns:ArrayOfACX_DCLinePropertyList" />
+  <xs:complexType name="ArrayOfACX_DCGetTimeSheet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCGetTimeSheet" nillable="true" type="tns:ACX_DCGetTimeSheet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCGetTimeSheet" nillable="true" type="tns:ArrayOfACX_DCGetTimeSheet" />
+  <xs:complexType name="ArrayOfACX_DCCategoryList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCCategoryList" nillable="true" type="tns:ACX_DCCategoryList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCCategoryList" nillable="true" type="tns:ArrayOfACX_DCCategoryList" />
+  <xs:complexType name="ArrayOfACX_DCNPGSectionCodeList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCNPGSectionCodeList" nillable="true" type="tns:ACX_DCNPGSectionCodeList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCNPGSectionCodeList" nillable="true" type="tns:ArrayOfACX_DCNPGSectionCodeList" />
+  <xs:complexType name="ArrayOfACX_DCReviewTimeSheetByTimeKeeker">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCReviewTimeSheetByTimeKeeker" nillable="true" type="tns:ACX_DCReviewTimeSheetByTimeKeeker" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCReviewTimeSheetByTimeKeeker" nillable="true" type="tns:ArrayOfACX_DCReviewTimeSheetByTimeKeeker" />
+  <xs:complexType name="ArrayOfACX_DCProjDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCProjDetail" nillable="true" type="tns:ACX_DCProjDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCProjDetail" nillable="true" type="tns:ArrayOfACX_DCProjDetail" />
+  <xs:complexType name="ArrayOfACX_DCNPGCodeList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCNPGCodeList" nillable="true" type="tns:ACX_DCNPGCodeList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCNPGCodeList" nillable="true" type="tns:ArrayOfACX_DCNPGCodeList" />
+  <xs:complexType name="ArrayOfACX_DCReviewTimeSheetByMatter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCReviewTimeSheetByMatter" nillable="true" type="tns:ACX_DCReviewTimeSheetByMatter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCReviewTimeSheetByMatter" nillable="true" type="tns:ArrayOfACX_DCReviewTimeSheetByMatter" />
+  <xs:complexType name="ArrayOfACX_DCProjListSearch">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ACX_DCProjListSearch" nillable="true" type="tns:ACX_DCProjListSearch" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfACX_DCProjListSearch" nillable="true" type="tns:ArrayOfACX_DCProjListSearch" />
+</xs:schema>

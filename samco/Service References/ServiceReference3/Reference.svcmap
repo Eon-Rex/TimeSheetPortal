@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7e331648-1a8c-4f1f-bba0-7058188d503c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ACXMobileCustomeService8.xsd" MetadataType="Schema" ID="167e0e46-37ed-4861-b8da-07d1a1b93215" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd5" />
+    <MetadataFile FileName="ACXMobileCustomeService2.wsdl" MetadataType="Wsdl" ID="3d1b17c7-30d9-4591-bdfe-b180d13062dc" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService" />
+    <MetadataFile FileName="ACXMobileCustomeService81.xsd" MetadataType="Schema" ID="243e5f58-2f90-4845-8586-f37ae7c375ee" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd1" />
+    <MetadataFile FileName="ACXMobileCustomeService82.xsd" MetadataType="Schema" ID="ddbbe17a-1a8c-4d02-83ad-d9638bf89092" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd4" />
+    <MetadataFile FileName="ACXMobileCustomeService83.xsd" MetadataType="Schema" ID="667ff1bf-6a3c-4e7c-b928-d27cb167999c" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd3" />
+    <MetadataFile FileName="ACXMobileCustomeService84.xsd" MetadataType="Schema" ID="116e450e-c7ac-4b80-bf89-0e8c6198b7c5" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd6" />
+    <MetadataFile FileName="ACXMobileCustomeService21.wsdl" MetadataType="Wsdl" ID="510fce6d-d9ed-4fb5-a91a-4c286e1cca41" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?wsdl=wsdl0" />
+    <MetadataFile FileName="ACXMobileCustomeService85.xsd" MetadataType="Schema" ID="a6b1e8db-8d32-4009-9784-507c8b5af3ad" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd7" />
+    <MetadataFile FileName="ACXMobileCustomeService86.xsd" MetadataType="Schema" ID="0096d52c-9e1e-4d8a-bf68-3a0312a030e2" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd0" />
+    <MetadataFile FileName="ACXMobileCustomeService87.xsd" MetadataType="Schema" ID="2c8f33e7-f349-4ec0-9451-2dedf3ae37b6" SourceId="1" SourceUrl="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

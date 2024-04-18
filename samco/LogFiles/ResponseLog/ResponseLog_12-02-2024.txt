@@ -1,0 +1,28 @@
+-------------------Response Log Start-----------as on 12:04 PM
+WebMethod Name :Data
+Response:{"_DCSaveTimeSheet":[{"employeeId":"90412","hour":1,"minutes":1,"narration":"Log Code Check","npgCode":"-1","npgSectionId":"-1","projCategoryId":"TC0001","projId":"10059","projLineProtId":"CH","transationId":null,"workDate":"2024-02-12T00:00:00"}]}
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:04 PM
+WebMethod Name :JsonconvertData
+Response:"{\"_DCSaveTimeSheet\":[{\"employeeId\":\"90412\",\"hour\":1,\"minutes\":1,\"narration\":\"Log Code Check\",\"npgCode\":\"-1\",\"npgSectionId\":\"-1\",\"projCategoryId\":\"TC0001\",\"projId\":\"10059\",\"projLineProtId\":\"CH\",\"transationId\":null,\"workDate\":\"2024-02-12T00:00:00\"}]}"
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:04 PM
+WebMethod Name :Result
+Response:"[{\"$id\":\"1\",\"message\":\"Record Updated.\",\"status\":true}]"
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:45 PM
+WebMethod Name :IIS Date
+Response:"2024-12-02T00:00:00"
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:45 PM
+WebMethod Name :Parse Date
+Response:"2024-02-12T00:00:00"
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:47 PM
+WebMethod Name :Data
+Response:{"_DCSaveTimeSheet":[{"employeeId":"90412","hour":0,"minutes":1,"narration":"Test","npgCode":"-1","npgSectionId":"-1","projCategoryId":"TC0001","projId":"10059","projLineProtId":"CH","transationId":null,"workDate":"2024-02-12T00:00:00"}]}
+-------------------End----------------------------
+-------------------Response Log Start-----------as on 12:47 PM
+WebMethod Name :Result
+Response:"[{\"$id\":\"1\",\"message\":\"Record Updated.\",\"status\":true}]"
+-------------------End----------------------------

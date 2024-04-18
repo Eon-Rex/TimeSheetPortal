@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://tempuri.org" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACXMobileCustomeService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_MobileCustomeService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://tempuri.org" location="http://ams-erpqsvr:8102/DynamicsAx/Services/ACXMobileCustomeService?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="NetTcpBinding_MobileCustomeService" type="i0:MobileCustomeService">
+    <wsp:PolicyReference URI="#NetTcpBinding_MobileCustomeService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetCalenderDaysTimeSheet">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/GetCalenderDaysTimeSheet" style="document" />
+      <wsdl:input name="MobileCustomeServiceGetCalenderDaysTimeSheetRequest">
+        <soap12:header message="i0:MobileCustomeServiceGetCalenderDaysTimeSheetRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceGetCalenderDaysTimeSheetResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveEmployeesIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveEmployeesIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveEmployeesIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveEmployeesIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveEmployeesIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RejectTimeSheet">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RejectTimeSheet" style="document" />
+      <wsdl:input name="MobileCustomeServiceRejectTimeSheetRequest">
+        <soap12:header message="i0:MobileCustomeServiceRejectTimeSheetRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRejectTimeSheetResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveManagerEmployeesIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveManagerEmployeesIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveManagerEmployeesIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveManagerEmployeesIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveManagerEmployeesIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="EditMyTimeSheet">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/EditMyTimeSheet" style="document" />
+      <wsdl:input name="MobileCustomeServiceEditMyTimeSheetRequest">
+        <soap12:header message="i0:MobileCustomeServiceEditMyTimeSheetRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceEditMyTimeSheetResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveManagerProjIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveManagerProjIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveManagerProjIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveManagerProjIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveManagerProjIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNewLinePropertyIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveNewLinePropertyIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveNewLinePropertyIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveNewLinePropertyIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveNewLinePropertyIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyTimeSheet">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/GetMyTimeSheet" style="document" />
+      <wsdl:input name="MobileCustomeServiceGetMyTimeSheetRequest">
+        <soap12:header message="i0:MobileCustomeServiceGetMyTimeSheetRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceGetMyTimeSheetResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="loginInMobilePortal">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/loginInMobilePortal" style="document" />
+      <wsdl:input name="MobileCustomeServiceLoginInMobilePortalRequest">
+        <soap12:header message="i0:MobileCustomeServiceLoginInMobilePortalRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceLoginInMobilePortalResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveLinePropertyIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveLinePropertyIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveLinePropertyIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveLinePropertyIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveLinePropertyIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjCategoryIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveProjCategoryIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveProjCategoryIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveProjCategoryIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveProjCategoryIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNPGSectionCodeIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveNPGSectionCodeIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveNPGSectionCodeIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjectCategoryIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveProjectCategoryIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveProjectCategoryIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveProjectCategoryIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveProjectCategoryIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjIdsNew">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveProjIdsNew" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveProjIdsNewRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveProjIdsNewRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveProjIdsNewResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReviewTimeSheetByTimekeeper">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByTimekeeper" style="document" />
+      <wsdl:input name="MobileCustomeServiceReviewTimeSheetByTimekeeperRequest">
+        <soap12:header message="i0:MobileCustomeServiceReviewTimeSheetByTimekeeperRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceReviewTimeSheetByTimekeeperResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTimeSheet">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/SaveTimeSheet" style="document" />
+      <wsdl:input name="MobileCustomeServiceSaveTimeSheetRequest">
+        <soap12:header message="i0:MobileCustomeServiceSaveTimeSheetRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceSaveTimeSheetResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveProjDetail">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveProjDetail" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveProjDetailRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveProjDetailRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveProjDetailResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="retrieveProjIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/retrieveProjIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveProjIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveProjIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveProjIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveNPGCodeIds">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/RetrieveNPGCodeIds" style="document" />
+      <wsdl:input name="MobileCustomeServiceRetrieveNPGCodeIdsRequest">
+        <soap12:header message="i0:MobileCustomeServiceRetrieveNPGCodeIdsRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceRetrieveNPGCodeIdsResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReviewTimeSheetByMatter">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/ReviewTimeSheetByMatter" style="document" />
+      <wsdl:input name="MobileCustomeServiceReviewTimeSheetByMatterRequest">
+        <soap12:header message="i0:MobileCustomeServiceReviewTimeSheetByMatterRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceReviewTimeSheetByMatterResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchProject">
+      <soap12:operation soapAction="http://tempuri.org/MobileCustomeService/searchProject" style="document" />
+      <wsdl:input name="MobileCustomeServiceSearchProjectRequest">
+        <soap12:header message="i0:MobileCustomeServiceSearchProjectRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MobileCustomeServiceSearchProjectResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACXMobileCustomeService">
+    <wsdl:port name="NetTcpBinding_MobileCustomeService" binding="tns:NetTcpBinding_MobileCustomeService">
+      <soap12:address location="net.tcp://ams-erpqsvr:8202/DynamicsAx/Services/ACXMobileCustomeService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://ams-erpqsvr:8202/DynamicsAx/Services/ACXMobileCustomeService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>amserpdevadmin@amsshardul.com</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

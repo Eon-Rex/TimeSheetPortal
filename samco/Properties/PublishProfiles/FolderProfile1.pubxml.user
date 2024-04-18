@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Acxiom\Mushahid Khan\TimeSheetPublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/30/2017 16:04:39</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>12/09/2013 02:10:52</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/30/2017 16:04:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>06/06/2016 15:40:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/06/2016 10:45:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/06/2016 10:42:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 07:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/samco.dll">
+      <publishTime>12/21/2023 18:16:14</publishTime>
+    </File>
+    <File Include="bin/samco.pdb">
+      <publishTime>12/21/2023 18:16:14</publishTime>
+    </File>
+    <File Include="Bootstrap/bootstrap.min.css">
+      <publishTime>04/04/2017 16:40:56</publishTime>
+    </File>
+    <File Include="Bootstrap/bootstrap.min.js">
+      <publishTime>12/21/2023 17:32:08</publishTime>
+    </File>
+    <File Include="Bootstrap/jquery.min.js">
+      <publishTime>12/21/2023 13:55:25</publishTime>
+    </File>
+    <File Include="css/blackberry.css">
+      <publishTime>02/02/2017 11:44:50</publishTime>
+    </File>
+    <File Include="css/blackberry1.css">
+      <publishTime>04/04/2017 15:57:54</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/04/2017 16:43:21</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>04/04/2017 16:39:07</publishTime>
+    </File>
+    <File Include="css/dropdown.css">
+      <publishTime>12/03/2016 22:08:05</publishTime>
+    </File>
+    <File Include="css/finalresposive.css">
+      <publishTime>12/03/2016 23:34:19</publishTime>
+    </File>
+    <File Include="css/ishrar.css">
+      <publishTime>02/06/2017 11:40:34</publishTime>
+    </File>
+    <File Include="css/testmenu.css">
+      <publishTime>12/03/2016 22:13:15</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>10/26/2023 15:07:17</publishTime>
+    </File>
+    <File Include="dropdownlist.aspx">
+      <publishTime>12/21/2023 12:19:10</publishTime>
+    </File>
+    <File Include="dropdownlist1.aspx">
+      <publishTime>12/21/2023 12:19:50</publishTime>
+    </File>
+    <File Include="EditTimesheet.aspx">
+      <publishTime>10/25/2023 12:02:09</publishTime>
+    </File>
+    <File Include="EditTimesheet1.aspx">
+      <publishTime>10/25/2023 18:29:27</publishTime>
+    </File>
+    <File Include="error404.png">
+      <publishTime>12/08/2016 11:24:28</publishTime>
+    </File>
+    <File Include="errorpages.aspx">
+      <publishTime>12/21/2023 11:38:07</publishTime>
+    </File>
+    <File Include="images/03a.jpg">
+      <publishTime>12/01/2016 16:55:44</publishTime>
+    </File>
+    <File Include="images/backbtn.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/bg.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/bg1.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/bg2.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/bg21.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/bg_2000pix.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/CB-logo.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/dlogo.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/dlogobig.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/editbtn.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/finalnew1.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/graph1.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/helpline.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/icon.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/img1.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/img2.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/img3.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/img4.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/Imgcon.ico">
+      <publishTime>04/02/2017 13:21:47</publishTime>
+    </File>
+    <File Include="images/imgtop.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/imgtop1.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/newbg1.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/newbg2.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/newbg3.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/newbg4.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/newbg5.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/page-loader.gif">
+      <publishTime>12/29/2016 12:47:34</publishTime>
+    </File>
+    <File Include="images/password.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/rejbtn.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/rejbtn1.jpg">
+      <publishTime>01/09/2017 17:37:06</publishTime>
+    </File>
+    <File Include="images/SAMLogo.png">
+      <publishTime>03/31/2017 18:32:43</publishTime>
+    </File>
+    <File Include="images/savebtn.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/search.jpg">
+      <publishTime>01/09/2017 17:37:06</publishTime>
+    </File>
+    <File Include="images/selogo.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/signinbtn.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/test2.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/test3.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/test6.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/test7.jpg">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="images/username.png">
+      <publishTime>12/01/2016 16:55:47</publishTime>
+    </File>
+    <File Include="jquery-1.4.2.min.js">
+      <publishTime>12/21/2023 14:21:27</publishTime>
+    </File>
+    <File Include="jquery.searchabledropdown-1.0.8.min.js">
+      <publishTime>12/21/2023 14:21:34</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>12/21/2023 17:49:33</publishTime>
+    </File>
+    <File Include="js/ishrar.js">
+      <publishTime>12/21/2023 17:49:08</publishTime>
+    </File>
+    <File Include="js/needish.js">
+      <publishTime>12/21/2023 17:04:48</publishTime>
+    </File>
+    <File Include="js/script1.js">
+      <publishTime>12/03/2016 22:25:06</publishTime>
+    </File>
+    <File Include="js/site.js">
+      <publishTime>12/21/2023 13:45:35</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>10/25/2023 18:29:38</publishTime>
+    </File>
+    <File Include="LogOutError.aspx">
+      <publishTime>12/21/2023 11:50:56</publishTime>
+    </File>
+    <File Include="MyCalendar.aspx">
+      <publishTime>10/25/2023 18:29:43</publishTime>
+    </File>
+    <File Include="Mytimesheetdash.aspx">
+      <publishTime>10/25/2023 18:29:50</publishTime>
+    </File>
+    <File Include="mytimesheets.aspx">
+      <publishTime>10/24/2023 13:14:09</publishTime>
+    </File>
+    <File Include="newtimesheet.aspx">
+      <publishTime>10/12/2023 16:07:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/11/2023 12:56:40</publishTime>
+    </File>
+    <File Include="rejecttimesheet.aspx">
+      <publishTime>10/25/2023 18:30:02</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCCategoryList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCEditTimeSheet.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCEmployeeList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCGetCalenderTimeSheet.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCGetTimeSheet.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCLinePropertyList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCNPGCodeList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCNPGSectionCodeList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCProjDetail.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCProjList.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCProjListSearch.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCReviewTimeSheetByMatter.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_DCReviewTimeSheetByTimeKeeker.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_ReturnLoginAttributes.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.ACX_ReturnTimeSheetAttributes.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceEditMyTimeSheetResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceGetCalenderDaysTimeSheetResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceGetMyTimeSheetResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceLoginInMobilePortalResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRejectTimeSheetResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveEmployeesIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveLinePropertyIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveManagerEmployeesIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveManagerProjIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveNewLinePropertyIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveNPGCodeIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveNPGSectionCodeIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveProjCategoryIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveProjDetailResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveProjectCategoryIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveProjIdsNewResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceRetrieveProjIdsResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceReviewTimeSheetByMatterResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceReviewTimeSheetByTimekeeperResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceSaveTimeSheetResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference3/samco.ServiceReference3.MobileCustomeServiceSearchProjectResponse.datasource">
+      <publishTime>04/11/2017 07:50:23</publishTime>
+    </File>
+    <File Include="timesheetbymatter.aspx">
+      <publishTime>10/25/2023 18:30:09</publishTime>
+    </File>
+    <File Include="timesheetbytimekeeper.aspx">
+      <publishTime>10/25/2023 18:30:14</publishTime>
+    </File>
+    <File Include="timesheetreviews.aspx">
+      <publishTime>10/25/2023 18:30:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/21/2023 18:16:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
